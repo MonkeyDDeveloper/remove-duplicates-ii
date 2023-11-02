@@ -1,0 +1,28 @@
+{
+  "name": "removeduplicatesfromsortedarray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc"
+  },
+  "mocha": {
+    "spec": ["build/**/*.test.js", "build/**/*.spec.js"]
+  },
+  "keywords": [
+    "leetcode",
+    "remove-duplicates"
+  ],
+  "author": "MonkeyDDevelopment",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.9",
+    "@types/mocha": "^10.0.3",
+    "@types/sinon": "^10.0.20",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "sinon": "^17.0.1",
+    "typescript": "^5.2.2"
+  }
+}
